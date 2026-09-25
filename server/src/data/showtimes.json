@@ -1,0 +1,122 @@
+[
+  {
+    "movie": "6a9ffbc730303d80f4c93afb",
+    "theater": "6a9ffbc730303d80f4c93b02",
+    "screen": "Screen 1",
+    "startTime": "2026-09-15T10:00:00+05:30",
+    "endTime": "2026-09-15T12:25:00+05:30",
+    "showDate": "2026-09-15T00:00:00+05:30",
+    "price": 150,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93b01",
+    "theater": "6a9ffbc730303d80f4c93b03",
+    "screen": "Screen 2",
+    "startTime": "2026-09-15T14:00:00+05:30",
+    "endTime": "2026-09-15T16:52:00+05:30",
+    "showDate": "2026-09-15T00:00:00+05:30",
+    "price": 200,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93afe",
+    "theater": "6a9ffbc730303d80f4c93b03",
+    "screen": "Screen 1",
+    "startTime": "2026-09-16T10:00:00+05:30",
+    "endTime": "2026-09-16T12:38:00+05:30",
+    "showDate": "2026-09-16T00:00:00+05:30",
+    "price": 150,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93aff",
+    "theater": "6a9ffbc730303d80f4c93b04",
+    "screen": "Screen 3",
+    "startTime": "2026-09-16T14:00:00+05:30",
+    "endTime": "2026-09-16T16:21:00+05:30",
+    "showDate": "2026-09-16T00:00:00+05:30",
+    "price": 180,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93afc",
+    "theater": "6a9ffbc730303d80f4c93b05",
+    "screen": "Screen 1",
+    "startTime": "2026-09-17T10:00:00+05:30",
+    "endTime": "2026-09-17T12:48:00+05:30",
+    "showDate": "2026-09-17T00:00:00+05:30",
+    "price": 180,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93b00",
+    "theater": "6a9ffbc730303d80f4c93b02",
+    "screen": "Screen 2",
+    "startTime": "2026-09-17T14:00:00+05:30",
+    "endTime": "2026-09-17T16:45:00+05:30",
+    "showDate": "2026-09-17T00:00:00+05:30",
+    "price": 200,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93afd",
+    "theater": "6a9ffbc730303d80f4c93b03",
+    "screen": "Screen 3",
+    "startTime": "2026-09-18T10:00:00+05:30",
+    "endTime": "2026-09-18T12:33:00+05:30",
+    "showDate": "2026-09-18T00:00:00+05:30",
+    "price": 170,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93afa",
+    "theater": "6a9ffbc730303d80f4c93b04",
+    "screen": "Screen 1",
+    "startTime": "2026-09-18T14:00:00+05:30",
+    "endTime": "2026-09-18T16:59:00+05:30",
+    "showDate": "2026-09-18T00:00:00+05:30",
+    "price": 200,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93af9",
+    "theater": "6a9ffbc730303d80f4c93b03",
+    "screen": "Screen 3",
+    "startTime": "2026-09-19T18:30:00+05:30",
+    "endTime": "2026-09-19T21:23:00+05:30",
+    "showDate": "2026-09-19T00:00:00+05:30",
+    "price": 250,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  },
+  {
+    "movie": "6a9ffbc730303d80f4c93af8",
+    "theater": "6a9ffbc730303d80f4c93b02",
+    "screen": "Screen 2",
+    "startTime": "2026-09-19T14:00:00+05:30",
+    "endTime": "2026-09-19T16:44:00+05:30",
+    "showDate": "2026-09-19T00:00:00+05:30",
+    "price": 220,
+    "totalSeats": 100,
+    "availableSeats": 100,
+    "bookingSeats": []
+  }
+]
