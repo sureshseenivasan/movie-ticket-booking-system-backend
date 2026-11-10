@@ -1,6 +1,4 @@
 import express from "express";
-import razorpay from "razorpay";
-
 
 import {
   createPayment,
@@ -8,44 +6,23 @@ import {
   getPaymentById,
   updatePayment,
   deletePayment,
+  createPaymentOrder,
+  verifyPayment,
 } from "../controllers/paymentController";
 
-
-
-import {
-  protect,
-} from "../middleware/authMiddleware";
-
+import { protect } from "../middleware/authMiddleware";
 
 const router = express.Router();
 
-const razorpayInstance = new razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID || "",
-  key_secret: process.env.RAZORPAY_KEY_SECRET || "",
-});
+// Razorpay order creation and payment verification
+router.post("/create-order", protect, createPaymentOrder);
+router.post("/verify", protect, verifyPayment);
 
-
-// CREATE PAYMENT
+// Generic payment record CRUD (kept as-is from the existing project)
 router.post("/", createPayment);
-
-
-// GET ALL PAYMENTS
 router.get("/", getPayments);
-
-
-// GET PAYMENT BY ID
 router.get("/:id", getPaymentById);
-
-
-// UPDATE PAYMENT
 router.put("/:id", updatePayment);
-
-
-// DELETE PAYMENT
 router.delete("/:id", deletePayment);
 
-
 export default router;
-
-
-

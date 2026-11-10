@@ -9,14 +9,14 @@ export interface IBooking extends Document {
 
   totalAmount: number;
 
-  bookingStatus: "CONFIRMED" | "CANCELLED";
+  bookingStatus: "PENDING" | "CONFIRMED" | "CANCELLED";
 
   paymentStatus: "PENDING" | "PAID" | "FAILED";
 
   bookingNumber: string;
 
-  razorpayPaymentId?: string;
   razorpayOrderId?: string;
+  razorpayPaymentId?: string;
 
   createdAt: Date;
   updatedAt: Date;
@@ -51,7 +51,7 @@ const bookingSchema = new Schema<IBooking>(
 
     bookingStatus: {
       type: String,
-      enum: ["CONFIRMED", "CANCELLED"],
+      enum: ["PENDING", "CONFIRMED", "CANCELLED"],
       default: "CONFIRMED",
     },
 

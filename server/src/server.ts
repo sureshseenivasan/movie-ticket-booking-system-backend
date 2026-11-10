@@ -24,6 +24,8 @@ import cinemaSyncRoutes
 import {
   startNotificationJob
 } from "./jobs/notificationJob";
+import seatLockRoutes from "./routes/seatLockRoutes";
+import adminRoutes from "./routes/adminRoutes";
 
 
 const app = express();
@@ -60,6 +62,9 @@ app.use("/api/payments", paymentRoutes);
 app.use("/api/notifications", notificationRoutes);
 app.use("/api/theater-screens",theaterScreenRoutes)
 app.use( "/api/cinema", cinemaSyncRoutes );
+app.use("/api/seat-locks", seatLockRoutes);
+app.use("/api/admin", adminRoutes);
+
 //ERROR HANDLER
 app.use(( req: Request, res: Response) => {
   res.status(404).json({
